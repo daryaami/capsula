@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- файл css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="img/head_icon.png" type="image/x-icon">
+        <title>Nova Éthica</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__menu menu">
+                <a class="menu__icon" href=""><img src="img/icons/logo.svg" alt="" class="menu__logo"></a>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a data-goto=".main-screen" href="#" class="menu__link">Главная</a></li>
+                        <li>
+                            <a href="" class="menu__link">Капсулы</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li><a href="#" class="menu__sub-link">Раздел 1</a></li>
+                                <li><a href="#" class="menu__sub-link">Раздел 2</a></li>
+                                <li><a href="#" class="menu__sub-link">Рaздел 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a data-goto=".ourteam-screen" href="#" class="menu__link">О нас</a></li>
+                        <li><a href="#" class="menu__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="menu__burger">
+                    <span></span>
+                </div>
+                <a class="menu__basket" href=""><img src="img/icons/basket.svg" alt="" class="basket__icon"></a>
+            </div> 
+        </header>
+	    <main class="page">                 
+            <section class="main-screen">
+                <div class="main-screen__top-block">
+                    <div class="main-photo__container container">
+                        <div class="container top-block__container">
+                            <div class="top-block__text text-block">
+                                <h1 class="text-block__title">Капсульный гардероб - это <span>стильно</span></h1>
+                                <p class="top-block__subtitle text-block__subtitle">Над нашими капсулами работают профессиональные стилисты. Подбери свой гардероб будущего не выходя из дома</p>
+                                <a href="" class="text-block__button button"><p class="main-button">Подобрать образ</p></a>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="second-screen">
+                    <div class="container second-screen__container">
+                        <div class="bottom-block__text text-block">
+                            <h1 class="text-block__title"> - это <span>экологично</span></h1>
+                            <p class="text-block__subtitle">Выбирая Nova Éthica, ты выбираешь природу.<br>Мы делаем одежду экологичной и долговечной</p>
+                        </div> 
+                    </div>   
+                </div>
+            </section>
+            <section class="scroll">
+                <div class="container scroll__container">
+                    <h1 class="scroll__text text-block__title">Выбирай из готовых капсул</h1>
+                    <div class="scroll__body">
+                        <div class="scroll__item first-scroll-item">
+                            <a class="scroll__photo-hover selected__photo" href=""><img class="scroll__item-photo" src="img/photos/Rectangle%208for_work_collection.png" alt=""></a>
+                            <h1 class="scroll__item-title">На работу</h1>
+                            <a class="scroll__item-button" href=""><p class="scroll__button">+ В корзину</p></a>
+                        </div>
+                        <div class="scroll__item">
+                            <a class="scroll__photo-hover selected__photo" href=""><img class="scroll__item-photo" src="img/photos/Rectangle%2013spring_collection.png" alt=""></a>
+                            <h1 class="scroll__item-title">Весна-лето</h1>
+                            <a class="scroll__item-button" href=""><p class="scroll__button">+ В корзину</p></a>
+                        </div>
+                        <div class="scroll__item">
+                            <a class="scroll__photo-hover selected__photo" href=""><img class="scroll__item-photo" src="img/photos/Rectangle%2015winter_collection.png" alt=""></a>
+                            <div class="scroll__item-title">Зимний сезон</div>
+                            <a class="scroll__item-button" href=""><p class="scroll__button">+ В корзину</p></a>
+                        </div>
+                    </div>
+                    <div class="scroll__line">
+                        <!-- JS -->
+                    </div>
+                </div>
+            </section>
+            <section class="ourteam-screen">
+                <div class="container ourteam-screen__container">
+                    <div class="ourteam__photo"></div>
+                    <p class="ourteam__text-block">Nova Éthica призвана распространить культуру устойчивой моды, бережного отношения к одежде и окружающей среде. Наша команда старается сделать моду экологичной, удобной и общедоступной<br><br>Спасибо, что выбираете нас!</p>
+                </div>
+            </section> 
+            <section class="gallery-screen">
+                    <div class="gallery__grid">
+                        <a class="grid__photo photo_1 selected__photo" href=""><div></div></a>
+                        <a class="grid__photo photo_2 selected__photo" href=""><div></div></a>
+                        <a class="grid__photo photo_3 selected__photo" href=""><div></div></a>
+                        <a class="grid__photo photo_4 selected__photo" href=""><div></div></a>
+                    </div>
+            </section>  
+        </main> 
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_row"> 
+                </div>
+            </div> 
+        </footer>	
+        <script src="js/script.js"></script>
+    </body>
+</html>
